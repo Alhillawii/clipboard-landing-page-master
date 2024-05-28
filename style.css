@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+    
+}
+
+header {
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    
+}
+
+.main {
+    text-align: center;
+    padding: 10px 0;
+    width: 40%;
+}
+
+.main h2 {
+    padding: 5px 0;
+}
+
+.btn {
+    padding: 20px 0;
+}
+
+.bt1 {
+    padding: 10px 25px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 2px 2px 2px hsl(171, 66%, 44%);
+}
+
+.bt2 {
+    padding: 10px 25px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 2px hsl(233, 100%, 69%);
+}
+
+.one {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.one h2 {
+    padding: 15px 0;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 0;
+}
+
+.two img {
+    width: 80%;
+    height: 100%;
+
+}
+
+.two .featur {
+    margin-top: 40px;
+    width: 65%;
+}
+
+.three {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.three img {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.three div:first-child {
+    padding: 70px 0;
+    width: 65%;
+    margin: auto;
+}
+
+.four .fuction {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.four .fuction div {
+    width: 26%;
+    margin: 0 30px;
+}
+
+.four .fuction img {
+    margin: 10px 0 20px;
+}
+
+.four .company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 50px 30px;
+}
+
+.five {
+    text-align: center;
+    width: 46%;
+    margin: auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+}
+
+.footer .lpl {
+    width: 50px;
+    height: 50px;
+    margin: 0 70px;
+}
+
+.foot ul {
+    list-style: none;
+    max-width: 400px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+a {
+    color: hsl(171, 66%, 44%);
+}
+
+@media (max-width: 765px) {
+    header {
+        background: url(./images/bg-header-mobile.png);
+        background-size: cover;
+        padding: 40px 10px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .two .featur {
+        width: 76%;
+        margin: 60px 12% auto;
+        text-align: center;
+    }
+
+    .three div:first-child {
+        width: 75%;
+    }
+    
+
+    .four .fuction {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+
+    }
+
+
+    .four .company {
+        display: grid;
+        grid-gap: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .five {
+        width: 84%;
+    }
+
+    .bt1 {
+        margin: 10px 0;
+    }
+
+    .bt2 {
+        margin: 10px 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    ul li {
+        display: grid;
+        margin: 20px 0;
+    }
+
+    .link {
+        margin: 10px;
+    }
+
+}
