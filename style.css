@@ -117,7 +117,7 @@ header {
 }
 
 .four .fuction div {
-    width: 26%;
+   
     margin: 0 30px;
 }
 
@@ -199,14 +199,13 @@ a {
     
 
     .four .fuction {
-        width: 85%;
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
         
-        
+      
         
 
     }
